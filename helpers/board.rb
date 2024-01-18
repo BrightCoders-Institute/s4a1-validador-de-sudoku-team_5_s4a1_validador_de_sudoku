@@ -2,8 +2,9 @@
 
 # Class to create the board
 class Board
-  attr_reader :board
+  attr_accessor :board
 
+#Code for board 9x9
   def initialize
     @board = Array.new(9) { Array.new(9, 0) }
   end
